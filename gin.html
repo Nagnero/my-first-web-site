@@ -3,36 +3,31 @@
 <head>
   <title>Gin-Based Cocktail</title>
   <meta charset="utf-8">
-  <style>
-    .other {
-      text-decoration: none;
-      color: black;
-    }
-    .current {
-      font-weight: bold;
-      color:blue;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1><a href="index.html" class="other">칵테일</h1>
-    <ul>
-      <li><a href="vodka.html" class="other">보드카</a></li>
-      <li><a href="gin.html" class="current">진</a></li>
-      <li><a href="rum.html" class="other">럼</a></li>
-      <li><a href="liqueur.html" class="other">리큐르</a></li>
-    </ul>
-    <p><strong>무색 투명한 술로 주니퍼 베리 등 방향성 물질을 넣어 증류시킨 </strong></p>
-    <br>
-    <ul>
-      <li>Martini - Base 2oz    Vermouth 10ml <br>
-        <img src="image/gin/Martini.jpeg" width="80px"></li> <br>
-      <li>Gimlet - Base 1.5oz    Lime 0.5oz    sugar 1tsp <br>
-        <img src="image/gin/Gimlet.jpeg" width="80px"></li> <br>
-      <li>Gin Fizz - Base 1.5oz    Lemon 1oz    sugar syrup 10ml sparkling water<br>
-        <img src="image/gin/Gin Fizz.jpeg" width="80px"></li> <br>
-      <li>White Lady - Base 1oz    Cointreau 0.5oz    Lemon 0.5oz <br>
-        <img src="image/gin/White Lady.jpeg" width="80px"></li> <br>
-    </ul>
+  <h1><a href="index.html" class="other">칵테일</a></h1>
+    <div id="grid">
+      <ul id="base">
+        <li><a href="vodka.html" class="other">보드카</a></li>
+        <li><a href="gin.html" class="other" id="current">진</a></li>
+        <li><a href="rum.html" class="other">럼</a></li>
+        <li><a href="liqueur.html" class="other">리큐르</a></li>
+      </ul>
+      <div id="article">
+        <p><strong>무색 투명한 술로 주니퍼 베리 등 방향성 물질을 넣어 증류시킨 술</strong></p>
+        <br>
+        <ul>
+          <li>Martini - Base 2oz    Vermouth 10ml <br>
+            <img src="image/gin/Martini.jpeg" width="80px"></li> <br>
+          <li>Gimlet - Base 1.5oz    Lime 0.5oz    sugar 1tsp <br>
+            <img src="image/gin/Gimlet.jpeg" width="80px"></li> <br>
+          <li>Gin Fizz - Base 1.5oz    Lemon 1oz    sugar syrup 10ml sparkling water<br>
+            <img src="image/gin/Gin Fizz.jpeg" width="80px"></li> <br>
+          <li>White Lady - Base 1oz    Cointreau 0.5oz    Lemon 0.5oz <br>
+            <img src="image/gin/White Lady.jpeg" width="80px"></li> <br>
+        </ul>
+      </div>
+    </div>
 </body>
 </html>

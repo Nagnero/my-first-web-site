@@ -3,25 +3,21 @@
 <head>
   <title>Rum-Based Cocktail</title>
   <meta charset="utf-8">
-  <style>
-    .other {
-      text-decoration: none;
-      color: black;
-    }
-    .current {
-      font-weight: bold;
-      color:blue;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1><a href="index.html" class="other">칵테일</h1>
-    <ul>
-      <li><a href="vodka.html" class="other">보드카</a></li>
-      <li><a href="gin.html" class="other">진</a></li>
-      <li><a href="rum.html" class="current">럼</a></li>
-      <li><a href="liqueur.html" class="other">리큐르</a></li>
-    </ul>
-    <h2>정의</h2>
+  <h1><a href="index.html" class="other">칵테일</a></h1>
+    <div id="grid">
+      <ul id="base">
+        <li><a href="vodka.html" class="other">보드카</a></li>
+        <li><a href="gin.html" class="other">진</a></li>
+        <li><a href="rum.html" class="other" id="current">럼</a></li>
+        <li><a href="liqueur.html" class="other">리큐르</a></li>
+      </ul>
+
+      <div id="article">
+        <h2>정의</h2>
+      </div>
+    </div>
 </body>
 </html>
